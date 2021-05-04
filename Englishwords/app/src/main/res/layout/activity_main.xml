@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lacii"
+    tools:context=".MainActivity">
+
+    <Button
+
+        android:id="@+id/buttonkelimedefteri"
+        android:layout_width="191dp"
+        android:layout_height="74dp"
+        android:background="@drawable/oval"
+        android:text="NoteBook"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="425dp"
+        android:layout_height="182dp"
+        app:srcCompat="@drawable/a1"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <Button
+        android:id="@+id/buttonquiz"
+        android:layout_width="191dp"
+        android:layout_height="101dp"
+        android:background="@drawable/oval"
+        android:text="Vocab Quızes"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="220dp"
+        android:layout_height="101dp"
+        android:text="ENGLISH QUIZ"
+        android:textColor="#2B2929"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="normal|bold|italic"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
